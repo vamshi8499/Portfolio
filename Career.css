@@ -1,0 +1,51 @@
+body {
+  background-image: url("bg.avif");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+h2 {
+  color: rgb(60, 255, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+h3 {
+  font-size: 35px;
+  color: aqua;
+}
+h5 {
+  color: white;
+  padding-left: 10%;
+  font-size: 19px;
+  margin: 10px;
+}
+h4 {
+  font-size: 20px;
+}
+.career nav nav1 {
+  margin: 10px;
+}
+span {
+  color: rgb(0, 179, 255);
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  h2 {
+    font-size: 50px;
+  }
+}

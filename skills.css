@@ -1,0 +1,8 @@
+body {
+  background-image: url("bg.avif");
+  background-size: cover;
+  color: white;
+}
+h5 {
+  font-size: 30px;
+}
